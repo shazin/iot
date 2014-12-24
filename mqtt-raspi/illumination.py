@@ -3,8 +3,8 @@
 # * Author Shazin Sadakath          *
 # **********************************
 
-import RPi.GPIO as GPIO 
-from kafka import KafkaClient, SimpleConsumer
+import RPi.GPIO as GPIO # GPIO Library for Python 
+from kafka import KafkaClient, SimpleConsumer # Kafka Python Library https://github.com/mumrah/kafka-python
 
 GPIO.setmode(GPIO.BOARD) 
 GPIO.setup(7, GPIO.OUT)
